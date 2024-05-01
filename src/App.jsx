@@ -38,6 +38,7 @@ function App() {
       </div>
     </section>
 
+    {/* About Me */}
     <section className='text-gray-700 border-t border-gray-200'>
       <div className='container px-5 py-24 mx-auto'>
         <div className='text-center mb-20'>
@@ -213,6 +214,38 @@ function App() {
                   </svg>
                 </a>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    {/* Skills */}
+    <section className='text-gray-700 border-t border-gray-200'>
+      <div className='container px-5 py-24 mx-auto flex flex-wrap'>
+        {/* Left side */}
+        <div className='mb-10 lg:mb-0 w-full lg:w-1/2 flex justify-center'>
+          <img src="./img/pc.jpg" alt="" width={500} height={300} className='rounded' />
+        </div>
+        {/* Right side */}
+        <div className='lg:pl-12 lg:py-6 w-full lg:w-1/2'>
+          <h1 className='text-2xl sm:text-3xl font-medium text-gray-900 mb-10 text-center lg:text-left'>My Skills</h1>
+          <div>
+            <h2>HTML</h2>
+            <div className='shadow bg-green-100 mt-2 w-full'>
+              <div className='bg-green-600 text-xs leading-none py-1 text-center text-white' style={{width: "85%"}}>85%</div>
+            </div>
+            <h2>CSS</h2>
+            <div className='shadow bg-green-100 mt-2 w-full'>
+              <div className='bg-green-600 text-xs leading-none py-1 text-center text-white' style={{width: "75%"}}>75%</div>
+            </div>
+            <h2>Java Script</h2>
+            <div className='shadow bg-green-100 mt-2 w-full'>
+              <div className='bg-green-600 text-xs leading-none py-1 text-center text-white' style={{width: "65%"}}>65%</div>
+            </div>
+            <h2>HTML</h2>
+            <div className='shadow bg-green-100 mt-2 w-full'>
+              <div className='bg-green-600 text-xs leading-none py-1 text-center text-white' style={{width: "85%"}}>85%</div>
             </div>
           </div>
         </div>
